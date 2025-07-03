@@ -1,0 +1,66 @@
+<!-- 
+CSS: Explore Basic CSS
+Date: 2 July 2025
+Milestone: 1
+Module: 2
+2-2 CSS Text: text color, text alignment,text decoration,font size, font family, font-style
+
+Learnings: 
+
+color express type:
+1. by name: Ex, color : blue;
+2. by rgb value: Ex, color : rgb(255, 0, 0);
+3. by hex-code: Ex, color : #cd5c5c
+4. by hue-saturation: Ex, color : hsl(0, 53%, 58%);
+4. by rgba value: Ex, color : rgb(255, 0, 0, 0.8);
+
+CSS Measuring units:
+1. Absolute Lengths: Absolute length is fixed.
+    cm: centimeters
+    mm: millimeters
+    in: inches(1in = 96px = 2.54cm)
+✅  px: pixel(1px = 1/96in) [it is relative unit]
+    pt: points(1pt = 1/72 of 1in)
+    pc: picas(1pc = 12pt)
+
+2. Relative Length: specify a length relative to another length property
+✅  em:     relative to the font size of the elements
+    ex:     relative to the x-height of the current font
+    ch:     relative to width of the "0"
+✅  rem:    relative to the font size of the root elements
+    vw:     relative to 1% of the width of the viewport
+    vh:     relative to 1% of the height of the viewport
+    vmin    relative to 1% of viewport's smaller dimension
+    vmax    relative to 1% of viewport's larger dimension
+✅  %:      relative to the parent elements
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Basic CSS</title>
+    <style>
+        li {
+            color:#cd5c5c;
+            font-size: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <h3 style="color: blue;">Learning Basic CSS</h3>
+    <h4 style="background-color: aqua;">Inline CSS</h4>
+    <p>CSS meaning Cascading Style Sheets</p>
+    <p>Style is colorful</p>
+    <p>Short form is CSS</p>
+    <p>Needs style rule and value separated by (:)</p>
+    <p>After each style you need to use a semi colon (;)</p>
+    <p>Here adding style to each line for p tag is inefficient.</p>
+    <p>To make it we can use Internal css or embedded css</p>
+    <ul>
+        <li>Inline</li>
+        <li>Internal or Embedded</li>
+        <li>External</li>
+    </ul>
+  </body>
+</html>
