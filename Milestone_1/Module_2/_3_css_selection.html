@@ -1,0 +1,78 @@
+<!-- 
+CSS: CSS Selectors (basic)
+Date: 2 July 2025
+Milestone: 1
+Module: 2
+2-3 CSS Selectors (basic): id, class, universal, tags, grouping, attribute, id vs class
+
+Learnings:
+1. Difference between fixed and relative unit
+Fixed width: Ex. width: 50px; will always 50px in any size of the user devices.
+Relative width: Ex. width: 50%; will dynamically change the size with x% of the user devices.
+
+2. CSS selectors
+a. Class Selectors
+b. ID Selectors
+c. Element Selectors
+d. Universal Selectors
+e. Grouping Selectors and Attribute Selectors
+
+Class Selector:
+The class selector in CSS is denoted by a .(dot) followed by a class name.
+It is used to select and style multiple html elements that shares the same class.
+To apply a class to an element, the class attribute is used in the HTML markup.
+It is recommended to use meaningful class names to improve code readability and maintenance.
+Class selectors offers a higher level of specificity compared to tag selectors.
+
+
+ID Selectors:
+ID selector
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Basic CSS</title>
+    <style>
+        .player {
+            text-align: right;
+
+        }
+        #embed {
+            color: #cd5c5c;
+            font-weight: bolder;
+        }
+        #short {
+            color: #cd5c5c;
+            text-align: center;
+        }
+        p {
+            background-color: #ddc8dc;
+            width: 50%;
+        }
+        li {
+            color:#cd5c5c;
+            font-size: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <h3 style="color: blue;">Learning Basic CSS</h3>
+    <h4 style="background-color: aqua;">Inline CSS</h4>
+    <p>CSS meaning Cascading Style Sheets</p>
+    <p>Style is colorful</p>
+    <p id = "short">Short form is CSS</p>
+    <p>Needs style rule and value separated by (:)</p>
+    <p class="player">After each style you need to use a semi colon (;)</p>
+    <p class="player">Here adding style to each line for p tag is inefficient.</p>
+    <p>To make it we can use Internal css or embedded css</p>
+    <ul>
+        <li>Inline</li>
+        <li id="embed">Internal or Embedded</li>
+        <li>External</li>
+    </ul>
+    <p class="player"> Tis is a paragraph</p>
+  </body>
+</html>
