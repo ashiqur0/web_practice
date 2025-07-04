@@ -1,0 +1,10 @@
+Git and GitHub: GiiHub and File related common mistakes
+Date: 3 July 2025
+Milestone: 1
+Module: 3
+3-6 Common GitHub related issues for beginners
+
+Learnings: 
+1. keep HTML file name index.HTML to live. Otherwise change the url as per html file name
+2. Others file name as it is.
+3. Git related mistakes may occurs
