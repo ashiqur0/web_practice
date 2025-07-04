@@ -1,5 +1,5 @@
 Git and GitHub: Git, source control, GitHub and hosting
-Date: 2 July 2025
+Date: 3 July 2025
 Milestone: 1
 Module 3: Git, source control, GitHub and hosting
 
