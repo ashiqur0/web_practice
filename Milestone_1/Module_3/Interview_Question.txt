@@ -1,0 +1,54 @@
+Git and GitHub: Git, source control, GitHub and hosting
+Date: 2 July 2025
+Milestone: 1
+Module 3: Git, source control, GitHub and hosting
+
+
+
+গিট এবং গিটহাব রিলেটেড কিছু ইন্টারভিউ প্রশ্ন নিচে দেওয়া হলো। এই প্রশ্নগুলোর উত্তর খুঁজে বের করে নিজের মতো করে নোট করে ফেলার চেষ্টা করবে। ভবিষ্যতে দরকার হলে তখন এইখান থেকে দেখে নিতে পারবে। 
+
+1. What is Git? What are the advantages of using Git?
+What is Git?
+Git is a free and open-source distributed version control system. It allows developers to track changes to files, collaborate on projects, and manage different versions of code, making it a crucial tool for software development. 
+
+What are the advantages of using Git?
+Git offers numerous advantages, primarily in version control and collaboration. It allows developers to track changes, revert to previous versions, and work together on projects efficiently. Git's decentralized nature, branching capabilities, and focus on speed and security make it a powerful tool for modern software development. 
+
+Key advantages of using Git:
+👉 Version Control:
+Git meticulously tracks changes to files and directories, enabling you to easily go back to previous versions, compare changes, and understand the evolution of your project. 
+
+👉 Collaboration:
+Git facilitates seamless teamwork by allowing multiple developers to work on the same project simultaneously, with features like branching and merging to manage parallel development effectively. 
+
+👉 Distributed System:
+Each developer has a complete copy of the repository, enabling offline work and reducing reliance on a central server for many operations. 
+
+👉 Branching and Merging:
+Git's branching model allows developers to isolate new features or experiments in separate branches, which can be easily merged back into the main codebase when ready. 
+
+👉 Speed and Efficiency:
+Git operations are typically fast, especially when working locally, as most operations don't require network access to a central server. 
+
+👉 Security:
+Git uses cryptographic hashing (SHA-1) to ensure the integrity of your data and prevent unauthorized access. 
+
+👉 Backup and Recovery:
+Every checkout of a repository serves as a full backup, and the ability to revert to previous versions provides a safety net against errors and data loss. 
+
+👉 Open Source and Community:
+Git is free and open-source, supported by a large and active community that provides extensive documentation, resources, and help. 
+
+👉 Flexibility and Workflow:
+Git's flexible branching strategies and features like staging areas allow for diverse and customized workflows. 
+
+👉 Conflict Resolution:
+Git provides tools to help resolve merge conflicts when multiple developers have modified the same parts of a file. 
+
+2. What do you understand by the term ‘Version Control System’?
+
+3. What’s the difference between Git and GitHub?
+
+4. Name a few Git commands with their function.
+
+5. Difference between git fetch and git pull.
