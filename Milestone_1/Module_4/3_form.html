@@ -1,0 +1,80 @@
+<!--
+Date: 6 July 2025
+Milestone: 1
+Module 4: label fieldset legend radio checkbox textarea reset submit
+4-3 HTML Form: label fieldset legend radio checkbox textarea reset submit
+
+Learnings: 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pitha Ghor</title>
+    <style>
+        form .basic-info label {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Jamal Mother Pitha Ghor</h2>
+            <form>
+                <fieldset class="basic-info">
+                    <legend>Basic Info</legend>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="" id="name">
+    
+                    <label for="email">Your Email</label>
+                    <input type="email" name="" id="emil">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pitha Info</legend>
+
+                    <input type="radio" name="pitha" id="citoy">
+                    <label for="citoy">Citoy</label>
+
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">Vapa</label>
+
+                    <input type="radio" name="pitha" id="puri">
+                    <label for="puri">Dalpuri</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Vorta Selection</legend>
+                    
+                    <input type="checkbox" name="vorta" id="sorisha">
+                    <label for="sorisha">Sorisha</label>
+
+                    <input type="checkbox" name="vorta" id="shutki">
+                    <label for="shutki">Shutki</label>
+
+                    <input type="checkbox" name="vorta" id="morich">
+                    <label for="morich">Morich</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extra Info</legend>
+                    <textarea col="50" rows="4" name="" id=""></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+  </body>
+</html>
