@@ -1,0 +1,103 @@
+<!--
+Date: 6 July 2025
+Milestone: 1
+Module 4: CSS Flex Layout Basic Overview
+4-5 CSS Flex Layout Basic Overview
+
+Learnings: 
+Display Flex: Flexible Display
+1. child class গুলকে পাশাপাশি নিয়ে আসতে প্যারেন্ট ক্লাসকে ফ্লেক্স করতে হয়
+2. child গুলোর মাঝে গ্যাপ দিতে চাইলে প্যারেন্টে গ্যাপ দেওয়া যাবে
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .container div {
+            border: 2px solid tomato;
+            height: 75px;
+            width: 75px;
+            font-size: 3em;
+        }
+        .box-container {
+            display: flex;
+            gap: 30px;
+        }
+        .box {
+            font-size: 4em;
+            width: 75px;
+            height: 75px;
+            border: solid 2px slateblue;
+        }
+        .user-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .user {
+            border: solid 2px skyblue;
+            height: 75px;
+            width: 75px;
+            font-size: 1.5em;
+            background-color: aquamarine;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <div class="box-container">
+        <!-- box{$}*6  -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="user-container">
+        <!-- div.user{user-$}*3  -->
+        <dive class="user">user-1</dive>
+        <dive class="user">user-2</dive>
+        <dive class="user">user-3</dive>
+    </div>
+    <div class="card-container">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+        <div class="user">user-4</div>
+        <div class="user">user-5</div>
+        <div class="user">user-6</div>
+        <div class="user">user-7</div>
+        <div class="user">user-8</div>
+        <div class="user">user-9</div>
+        <div class="user">user-10</div>
+        <div class="user">user-11</div>
+        <div class="user">user-12</div>
+        <div class="user">user-13</div>
+        <div class="user">user-14</div>
+        <div class="user">user-15</div>
+        <div class="user">user-16</div>
+        <div class="user">user-17</div>
+        <div class="user">user-18</div>
+        <div class="user">user-19</div>
+        <div class="user">user-20</div>
+    </div>
+</body>
+</html>
