@@ -6,23 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .post {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            margin: 10px;
-            padding: 10px;  
+        h2 {
+            margin-top: 0px;
         }
-        .post .food img {
+        .post .food, .description, .post2 .food, .description {
+            width: 100%;
+        }
+        .post .food img, .post2 .food img {
             width: 100%;
             border-radius: 4px;
+        }
+        .post, .post2 {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .post2 {
+            flex-direction: row-reverse;
         }
         .description {
             text-align: justify;
         }
         @media screen and (max-width: 576px) {
-            .post {
-                grid-template-columns: repeat(1, 1fr);
+            .post, .post2 {
+                flex-direction: column;
             }
         }
     </style>
@@ -36,30 +43,18 @@
             </div>
             <div class="description">
                 <h2>Why do we use it?</h2>
-                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
-                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
-                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
-                    soluta.</p>
-                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
-                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
-                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
-                    soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in eligendi inventore dolorem, doloribus fugiat. Voluptas quas cumque quo, rem facere neque culpa provident! Ipsam debitis, omnis nihil odio quod laborum dolor. Esse at nemo eaque alias hic sunt dolorem, nihil fugiat harum repellat saepe quod voluptates minus id nam! Fugiat ducimus, deleniti voluptates odio debitis expedita unde aperiam eius?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in eligendi inventore dolorem, doloribus fugiat. Voluptas quas cumque quo, rem facere neque culpa provident! Ipsam debitis, omnis nihil odio quod laborum dolor. Esse at nemo eaque alias hic sunt dolorem, nihil fugiat harum repellat saepe quod voluptates minus id nam! Fugiat ducimus, deleniti voluptates odio debitis expedita unde aperiam eius?</p>
             </div>
         </div>
-        <div class="post">          
+        <div class="post2">          
             <div class="food">
                 <img src="/food.jpg" alt="">
             </div>  
             <div class="description">
                 <h2>Why do we use it?</h2>
-                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
-                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
-                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
-                    soluta.</p>
-                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
-                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
-                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
-                    soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in eligendi inventore dolorem, doloribus fugiat. Voluptas quas cumque quo, rem facere neque culpa provident! Ipsam debitis, omnis nihil odio quod laborum dolor. Esse at nemo eaque alias hic sunt dolorem, nihil fugiat harum repellat saepe quod voluptates minus id nam! Fugiat ducimus, deleniti voluptates odio debitis expedita unde aperiam eius?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in eligendi inventore dolorem, doloribus fugiat. Voluptas quas cumque quo, rem facere neque culpa provident! Ipsam debitis, omnis nihil odio quod laborum dolor. Esse at nemo eaque alias hic sunt dolorem, nihil fugiat harum repellat saepe quod voluptates minus id nam! Fugiat ducimus, deleniti voluptates odio debitis expedita unde aperiam eius?</p>
             </div>
         </div>
     </div>
