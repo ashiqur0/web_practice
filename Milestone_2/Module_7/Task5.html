@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .post {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 10px;
+            padding: 10px;  
+        }
+        .post .food img {
+            width: 100%;
+            border-radius: 4px;
+        }
+        .description {
+            text-align: justify;
+        }
+        @media screen and (max-width: 576px) {
+            .post {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="post">
+            <div class="food">
+                <img src="/food.jpg" alt="">
+            </div>
+            <div class="description">
+                <h2>Why do we use it?</h2>
+                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
+                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
+                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
+                    soluta.</p>
+                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
+                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
+                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
+                    soluta.</p>
+            </div>
+        </div>
+        <div class="post">          
+            <div class="food">
+                <img src="/food.jpg" alt="">
+            </div>  
+            <div class="description">
+                <h2>Why do we use it?</h2>
+                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
+                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
+                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
+                    soluta.</p>
+                <p>Repellendus molestiae aut deserunt ullam voluptatum vero minus aliquid magnam. Labore dolorem maxime
+                    quo veniam incidunt blanditiis eligendi ut tempore nisi, et sequi quos corporis explicabo dolore id?
+                    Officiis suscipit consectetur reprehenderit quaerat fugiat officia, optio asperiores maxime sed
+                    soluta.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
