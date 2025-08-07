@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }   
+        .post {
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .post img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .description {
+            display: flex;
+            flex-direction: column;
+        }
+        .description p{
+            text-align: justify;
+        }
+        .btn {
+            background-color: blue;
+            font-size: 15px;
+            color: white;
+            border: none;
+            width: 100px;
+            height: 40px;
+            border-radius: 8px;
+        }
+        .btn:hover {
+            background-color: rgba(0, 0, 255, 0.774);
+        }
+
+        @media screen and (max-width: 576px) {
+            .post {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="post">
+            <img src="/Milestone_2/Module_7/images/food.jpg" alt="">
+            <div class="description">
+                <h3 class="title">Post Title Will Be Here</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed provident, expedita vero fugit maxime adipisci ipsa odit iure aliquam assumenda!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed provident, expedita vero fugit maxime adipisci ipsa odit iure aliquam assumenda!</p>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+        <div class="post">
+            <img src="/Milestone_2/Module_7/images/food.jpg" alt="">
+            <div class="description">
+                <h3 class="title">Post Title Will Be Here</h3>
+                <p>Sit rem quibusdam velit, nemo, consequatur at dolore explicabo magni consequuntur iusto porro, deserunt fugiat omnis quisquam ipsum itaque hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed provident, expedita vero fugit maxime adipisci ipsa odit iure aliquam assumenda!</p>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
