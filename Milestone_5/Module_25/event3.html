@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM Event 3</h1>
+    <p id="name">No name</p>
+    <input id="input-name" placeholder="Your name" type="text">
+    <button id="btn-login">Login</button>
+    <script>
+        const login = document.getElementById('btn-login')
+        .addEventListener('click', function() {
+            const name = document.getElementById('input-name');
+            document.getElementById('name').innerText = name.value;
+        })
+    </script>
+</body>
+</html>
