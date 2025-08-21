@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .comment {
+            background-color: cyan;
+            border: 2px solid chartreuse;
+            border-radius: 8px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Event 4</h1>
+    <div id="comment-container">
+        <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quam a quidem voluptatem enim dolores sequi at ullam dolore eos asperiores reiciendis ex, suscipit quasi repudiandae soluta odio vel impedit!</p>
+        <p class="comment">Nihil quidem architecto expedita sunt, ea doloremque nobis aspernatur temporibus numquam. Aliquid tenetur aperiam laborum tempore commodi maxime perferendis quod. Esse nihil dolore eveniet, eum eligendi qui iure inventore quisquam.</p>
+        <p class="comment">Totam eius, sed inventore consequuntur deleniti, suscipit soluta culpa commodi est sit accusamus nihil quo sunt quasi. Officiis non ea, laudantium totam doloribus ratione alias reprehenderit voluptatibus veritatis praesentium corrupti.</p>
+    </div>
+        <br>
+        <textarea name="" cols="60" rows="5" id="comment-field"></textarea>
+        <br>
+        <button id="post-btn">Post</button>
+        
+        <script>
+            const post = document.getElementById('post-btn')
+            .addEventListener('click', function() {
+                const commentContainer = document.getElementById('comment-container');
+                const commentField = document.getElementById('comment-field');
+                const newP = document.createElement('p');
+                newP.innerText = commentField.value;
+                newP.classList.add('comment');
+                commentContainer.appendChild(newP);
+                commentField.value= '';
+            })
+        </script>
+</body>
+</html>
