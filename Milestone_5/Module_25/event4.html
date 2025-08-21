@@ -26,15 +26,22 @@
         <button id="post-btn">Post</button>
         
         <script>
+            // step 0: get the button and add eventListener
             const post = document.getElementById('post-btn')
             .addEventListener('click', function() {
-                const commentContainer = document.getElementById('comment-container');
+                // step 1: get the comment
                 const commentField = document.getElementById('comment-field');
-                const newP = document.createElement('p');
-                newP.innerText = commentField.value;
-                newP.classList.add('comment');
-                commentContainer.appendChild(newP);
+                const comment = commentField.value;
+
+                // step 2: create new element and set inner text
+                const p = document.createElement('p');
+                p.innerText = comment;
+                p.classList.add('comment');
                 commentField.value= '';
+
+                // step 3: get the parent class and appent child
+                const commentContainer = document.getElementById('comment-container');
+                commentContainer.appendChild(p);
             })
         </script>
 </body>
