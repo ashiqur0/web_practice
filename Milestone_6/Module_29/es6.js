@@ -1,13 +1,13 @@
 /**
  * 
  * Module Summary: (Topic Name)
- * 1. var, let, const (difference), Hoisting
+ * 1. var, let, const (difference), Hoisting 
  * 2. Function: undefine, NaN, default parameter
- * 3. Template String(multi line string), or dynamic string using backtick and placeholder3. Template String(multi line string), or dynamic string using backtick and placeholder
+ * 3. Template Literals(multi line string), or dynamic string using backtick and placeholder
  * 4. Arrow functon: 
  * 5. More About Arrow Function, Annonymous Function, Normal Function vs Arrow Function
  * 6. Spread Operator, Array Max, Copy Arrays
- * 7. Destructuring
+ * 7. Destructuring Assignment
  * 8. Keys, Values, Entries, Add, Delete, Seal, Freeze
  * 9. Loop on objects
  * 
@@ -37,7 +37,7 @@
     multiply(5, 10);
     fullName('Kamruzzaman');
 
-// 3. Template String(multi line string), or dynamic string using backtick and placeholder
+// 3. Template Literals(multi line string), or dynamic string using backtick and placeholder
     function sum(num1, num2) {
         const result = num1 + num2;
         const output = `Sum of ${num1} and ${num2} is ${result}`;
